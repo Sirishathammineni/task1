@@ -1,0 +1,18 @@
+### Task 1: Data Cleaning and Preprocessing
+
+**Objective**: Clean Netflix Movies and TV Shows dataset for analysis.
+
+**Tools Used**: Python, Pandas, Excel
+
+**Steps Performed**:
+- Removed completely empty column `Year added`
+- Replaced all `"Unknown"` values with `NaN`
+- Converted `date_added` to proper datetime format
+- Removed duplicate rows (none found)
+- Split `duration` into:
+  - `duration_int` (numeric part)
+  - `duration_type` (unit: min/season)
+- Standardized text values in columns like `country`, `rating`
+- Renamed all column headers to lowercase with underscores
+
+**Result**: A cleaned, structured dataset ready for analysis.
